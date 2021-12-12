@@ -89,7 +89,7 @@ div#menu_bar {
     padding: 12px;
     cursor: pointer;
     display: none;
-    z-index: 1;
+    z-index: 9;
 }
 
 .container {
@@ -633,6 +633,7 @@ footer h3 span {
     }
     header{
         width: 100%;
+        z-index: 2;
     }
     .info_wrapper{
         flex-direction: column;
